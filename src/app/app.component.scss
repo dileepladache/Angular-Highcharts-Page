@@ -1,0 +1,47 @@
+#chart-gauge, #chart-pie {
+    display: block;
+    min-width: 150px;
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+   #chart-line, #chart-column {
+    display: block;
+    min-width: 150px;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    margin-top: 1%;
+    background-color:beige;
+    border: dashed;
+    
+  }
+
+  @import url("https://code.highcharts.com/css/highcharts.css");
+@import url("https://code.highcharts.com/css/datagrid.css");
+@import url("https://code.highcharts.com/css/dashboards.css");
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
